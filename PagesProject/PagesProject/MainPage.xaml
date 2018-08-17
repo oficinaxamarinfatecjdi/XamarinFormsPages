@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PagesProject"
+             x:Class="PagesProject.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand"
+                 HorizontalOptions="CenterAndExpand">
+
+        <Button Text="ContentPage" Clicked="ToContentPage_Clicked"/>
+        <Button Text="TabbedPage" Clicked="ToTabbedPage_Clicked"/>
+        <Button Text="CarouselPage" Clicked="ToCarouselPage_Clicked"/>
+        <Button Text="MasterDetailPage" Clicked="ToMasterDetailPage_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
